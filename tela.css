@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+@font-face {
+    font-family: "Night Machine";
+    src: url("Night Machine.otf") format("opentype");
+}
+
+body, html {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+main {
+    background-color: rgb(24, 24, 24);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+main > h1 {
+    text-align: center;
+    transform: translate(-0%, 100%);
+    font-family: "Night Machine";
+    font-size: 100px;
+    color: rgb(211, 52, 4);
+    
+}
+
+
+
+section {
+    
+    border-radius: 20px ;
+    border: 2px solid;
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+section > p {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(145, 144, 144);
+    
+}
+
+section > p > a {
+    color: rgb(189, 64, 26);
+
+}
+
+section > p > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(214, 45, 45);
+}
+
+
